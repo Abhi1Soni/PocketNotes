@@ -1,0 +1,41 @@
+.notesSection{
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+
+.heading{
+  max-width: fit-content;
+  margin:0 auto 0 auto;
+  padding: 40px;
+  font-size: 19px;
+}
+
+.notesNames{
+  width: 100%;
+  max-height: 79vh;
+  overflow-y: auto; /* Enables vertical scrolling when content overflows */
+  /* max-height: 100vh; Optional: Limits height to viewport height for scrolling */
+  padding-bottom: 80px; /* Adds space for the button at the bottom */
+}
+
+
+.newNotebtn {
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  width: 60px; /* Optional: Set button size*/
+  height: 60px;  
+  font-size: 40px; /* Optional: Adjust font size for better visibility */
+  border-radius: 50%; /* Makes the button circular */
+  background-color: #16008B; /* Optional: Set button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  /* text-align: center; */
+}
+
+.newNotebtn:hover {
+  background-color: #0f015f; /* Optional: Darker color on hover */
+}

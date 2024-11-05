@@ -9,63 +9,31 @@ html,body{
   height: 100%;
 }
 
-.notesSection{
-  width: 40%;
-  height: 100%;
-  position: relative;
-}
-
-.heading{
-  max-width: fit-content;
-  margin:0 auto 0 auto;
-  padding: 40px;
-  font-size: 19px;
-}
-
-.newNotebtn {
-  position: absolute;
-  bottom: 20px; /* Adjust the distance from the bottom as needed */
-  right: 10px; /* Adjust the distance from the right as needed */
-  width: 55px; /* Optional: Set button size */
-  height: 55px;
-  font-size: 40px; /* Optional: Adjust font size for better visibility */
-  border-radius: 50%; /* Makes the button circular */
-  background-color: #16008B; /* Optional: Set button color */
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.newNotebtn:hover {
-  background-color: #0056b3; /* Optional: Darker color on hover */
-}
-
 .container{
   width: 100%;
   height: 100%;
   display: flex;
 }
 
-.showNoteSec{
-  width: 100%;
-  height: 100%;
-  background-color: #DAE5F5;
-}
+/* .newGroupForm{
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  width: 500px;
+  height: 200px;
+  transform: translate(-50%,-50%);
+  background-color: aqua;
+} */
 
-.PocketNoteBG{
-
-  z-index: -1;
-}
-
-showNoteSec {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; /* Adjust width as needed */
-  height: 100vh; /* Adjust height as needed */
-}
-
-PocketNoteBG {
-  max-width: 100%; /* Ensures the image doesn't overflow */
-  height: auto;
+.newGroupForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  z-index: 1000; /* Ensures it stays above other elements */
+  width: 300px; /* Adjust width as needed */
 }
