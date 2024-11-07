@@ -1,0 +1,121 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100vh;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+
+.notesSection{
+  width: 35%;
+  height: 100vh;
+  position: relative;
+}
+
+.heading{
+  padding: 30px;
+  text-align: center;
+}
+
+
+.note{
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.note:hover{
+  background-color: #2F2F2F2B;
+}
+
+.DP{
+  background-color: bisque;
+  border-radius: 100%;
+  padding: 15px;
+  font-size: 23px;
+  font-weight: 800;
+  margin-left: 20px;
+  margin-right:25px;
+}
+
+.newNotebtn {
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  width: 60px; /* Optional: Set button size*/
+  height: 60px;  
+  font-size: 40px; /* Optional: Adjust font size for better visibility */
+  border-radius: 50%; /* Makes the button circular */
+  background-color: #16008B; /* Optional: Set button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  /* text-align: center; */
+}
+
+.newNotebtn:hover {
+  background-color: #0f015f; /* Optional: Darker color on hover */
+}
+
+.messageSection{
+    width: 100%;
+    height: 100vh;
+    background-color: #DAE5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.PocketNoteBG{
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+ /* z-index: -1; */
+}
+
+.showNoteSecHeading{
+ font-size: 38px;
+ font-weight: 800;
+ margin-bottom: 10px;
+}
+
+.para{
+ font-size: 16px;
+ font-weight: 600;
+ color: #292929;
+line-height: 22px;
+word-spacing: 2px;
+ /* margin: 0px 50px 0px 50px; */
+}
+
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+bottom: 5px;
+word-spacing: 5px;
+font-size: 17px;
+}
+
+.lockImage{
+ width: 14px;
+ height: 14px;
+margin-right: 8px;
+}

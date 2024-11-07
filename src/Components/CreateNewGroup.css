@@ -15,14 +15,14 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   z-index: 1000; /* Ensures it stays above other elements */
-  width: 500px; /* Adjust width as needed */
+  width: 550px; /* Adjust width as needed */
   height: 230px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.newGroupForm h2{
-  font-size: 21px;
-  font-weight:600;
-  margin-bottom: 10px;
+.marginBottom{
+  margin-bottom: 13px;
 }
 
 .newGroupForm form {
@@ -31,35 +31,39 @@
   justify-content: flex-start;
 }
 
-/* .newGroupForm label {
+
+/* These are for the form hook code */
+/* .newGroupForm label {      
   margin-bottom: 10px;
 } */
-
+/* 
 .formGroup {
   display: flex;
-  align-items: center; /* Aligns items vertically centered */
-  margin-bottom: 10px; /* Space below the input field */
+  align-items: center; Aligns items vertically centered
+  margin-bottom: 10px; Space below the input field
   font-weight:600;
-}
+  font-size: 22px;
+} */
 
 .groupName {
-  margin-left: 35px;
+  margin-left: 25px;
   padding: 8px;
   width: 70%;
   /* font-size: 14px; */
 }
 
 .newGroupForm input{
-
+  width: 325px;
   color: #979797;
   border: 2px solid #979797;
   border-radius: 25px;
   padding-left: 25px;
+  margin-bottom: 13px;
 }
 
 
 .colorSelection {
-  margin: 10px 0;
+  /* margin: 10px 0; */
   display: flex;
   align-items: center;
   gap: 10;
@@ -105,7 +109,6 @@
   font-size: 16px; /* Font size */
 }
 
-.submitButton:hover {
-  background-color: #0f015f; /* Darker color on hover */
+.disabled{
+  background-color: #6d6d6e ;
 }
-
